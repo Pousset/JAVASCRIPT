@@ -1,7 +1,9 @@
-function retournerMessageScore(score, nombreQuestions) {
-    let message = 'Votre score est de ' + score + nombreQuestions
-    return message
-}
+// function retournerMessageScore(score, nombreQuestions) {
+//     let message = 'Votre score est de ' + score + nombreQuestions
+//     return message
+// }
 
-let nouveauMessage = retournerMessageScore(5,10)
-console.log(nouveauMessage)
+// let nouveauMessage = retournerMessageScore(5,10)
+// console.log(nouveauMessage)
+
+Console.WriteLine('hello');

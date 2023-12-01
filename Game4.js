@@ -6,20 +6,18 @@
 
 // Je vous propose de factoriser ce code, c'est-à-dire de mettre en commun les parties répétées à l’aide d'une boucle.
 
+let tableau = ['serge', 'stephanie', 'elisa', 'mathis'];
+let question = 'La famille rifle, nauche, piette, est composé de';
+let score = 0;
 
-let tableau = ["serge", "stephanie", "elisa" , "mathis"] 
-let question = "La famille rifle, nauche, piette, est composé de"
-let score = 0
-
-
-
-for (let i = 0; i < tableau.length ; i++) {
-    let taperMot = prompt("entrez un prenom au hasard ! ")
-    if ( tableau[i] === taperMot) {
-        score++
-        console.log("Bravo vous avez trouvé cette belle famille composées de" + tableau.length + "Personnes")
-    }
+for (let i = 0; i < tableau.length; i++) {
+	let taperMot = prompt('entrez un prenom au hasard ! ');
+	if (tableau[i] === taperMot) {
+		score++;
+		console.log(
+			'Bravo vous avez trouvé cette belle famille composées de' +
+				tableau.length +
+				'Personnes'
+		);
+	}
 }
-
-
-
